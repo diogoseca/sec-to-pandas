@@ -1,3 +1,5 @@
+**WORK IN PROGRESS**
+
 # SEC EDGAR Financial Reports
 Extract financial data from the SEC's EDGAR database.
 
