@@ -1,19 +1,16 @@
 **WORK IN PROGRESS**
 
 # SEC EDGAR Financial Reports
-Extract financial data from the SEC's EDGAR database.
+Extract financial data from the SEC's EDGAR database onto Pandas DataFrames.
 
 ## Intro
-The purpose of this project is to allow users to conveniently extract financial data from the SEC's EDGAR database. This library parses the financial data from the SGML into JSON format. This seamless conversion of filing data to application-ready data is what differentiates this library from other EDGAR libraries.
+The purpose of this project is to allow users to conveniently extract financial data from the SEC's EDGAR database. This library parses the financial data from the SGML into Pandas DataFrames. This seamless conversion of filing data to application-ready data is what differentiates this library from other EDGAR libraries.
 
 While it is essentially a web-scraper, the EDGAR filing structure that it is built on, and the formatting of the filings themselves, should remain rather static.
 
 
 ## Installation
-Will eventually upload to PyPI, but for now:
-1. clone/download
-2. `python setup.py sdist` to create distribution package (note: you must have `setuptools` installed)
-3. `pip install ./dist/sec-edgar-financials-0.0.1.tar.gz`
+pip install git+...
 
 
 ## Example Usage
